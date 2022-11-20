@@ -1,17 +1,26 @@
 header, footer {
-    border:10px solid pink;
+    border:10px solid rgb(70, 34, 70);
     height:50px;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    margin:auto;
+    line-height: 10px;
     font-weight: bold;
 }
 
 body {
-    background-color:aliceblue;
+    background-color:
+}
+
+img {
+    border-radius: 25px;
+    box-shadow: 20 20 20 gray;
+    margin-left: 25px;
+    rotate:
 }
 
 ul {
     margin-left: 10px;
-    list-style: square;
+    list-style: none;
 }
 
 @media screen and (max-width: 768px) {
