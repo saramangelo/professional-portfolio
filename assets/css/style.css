@@ -1,15 +1,36 @@
-header, footer {
-    border:10px solid rgb(70, 34, 70);
-    height:50px;
+* {
+  padding: 0;
+  background-color: var(--gin);
+  }
+
+:root {
+  --outerspace: #33393f;
+  --bright-turqouise: #2aefcb;
+  --gin: #e0eae4;
+  --heliotrope: #e866ec;
+}
+
+.about-container {
+
+}
+
+.work-container {
+
+}
+
+
+
+header {
     font-family: 'Times New Roman', Times, serif;
     margin:auto;
     line-height: 10px;
     font-weight: bold;
 }
 
-body {
-    background-color:
+footer {
+
 }
+
 
 img {
     border-radius: 25px;
@@ -18,28 +39,32 @@ img {
     rotate:
 }
 
-ul {
-    margin-left: 10px;
-    list-style: none;
+
+
+#navbar {
+  /* border: 10px solid var(--gin); */
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-around;
+  list-style: none;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
-    main,
+    /* main,
     nav {
       flex-direction: column;
     }
     /* Make the sidebar stack below the body */
-    aside {
+    /* aside {
       order: 2;
-    }
+    } */
     /* Change the header background */
-    header {
-      background: #772014;
-    }
+    /* header {
+      background:
+    } */
     /* Change the navbar and footer background */
-    nav,
+    /* nav,
     footer {
       background-color: #bb8588;
-    }
-  }
+    } */

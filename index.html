@@ -7,42 +7,50 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Sara Angelo's Professional Portfolio</title>
   </head>
+
   <body>
+
     <header>
       <!-- Headers -->
       <h1>Sara Angelo</h1>
     </header>
 
-    <section>
-      <!--section element groups main content-->
-      <!-- Image -->
-      <img src="./assets/Portrait3.jpeg" alt="Portrait of Sara Angelo" />
+    <nav id="navbar">
+      <ul>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#connect">Let's Connect</a>
+      </ul>
+    </nav>
 
-      <aside>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#connect">Let's Connect</a></li>
-        </ul>
-      </nav>
-    </aside>
-
+    <main>
       <section>
-        <Header>About</Header>
-        <p>
-          I am a Full-Stack Developer located in California. With an innate drive to challenge myself, I set out to find new projects to create from the ground up. As a Virgo, I've always been a well-organized individual with 
-        </p>
+        <!--section element groups main content-->
+        <!-- Image -->
+        <img src="./assets/Portrait3.jpeg" alt="Portrait of Sara Angelo" />
       </section>
 
-      <section>
-        <Header>Work</Header>
-        <p>
-          Insert my work so far. Link to Github?
-        </p>
-      </section>
+      <container class="about-container">
+        <section>
+          <h2>About</h2>
+          <p>
+            I am a Full-Stack Developer located in California. With an innate
+            drive to challenge myself, I set out to find new projects to create
+            from the ground up.
+          </p>
+        </section>
+      </container>
 
+      <container class="work-container">
+        <section>
+          <h2>Work</h2>
+          <p>Insert my work so far. Link to Github?</p>
+        </section>
+      </container>
+    </main>
+
+    <footer>
       <section>
         <ul>
           <li>724.549.7964</li>
@@ -50,12 +58,8 @@
           <li>Github</li>
         </ul>
       </section>
+    </footer>
 
-
-      <!-- Link -->
-      <a href="https://www.google.com">This is a link to Google.com</a>
-    </section>
-
-    <footer>FOOTER</footer>
   </body>
+
 </html>
