@@ -73,11 +73,11 @@ section p {
   font-size: 1.5rem;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: left;
-  padding: 1%;
+h1 {
+color: var(--heliotrope);
+margin:auto;
+display: flex;
+justify-content: center;
 }
 
 .about-container {
@@ -131,7 +131,8 @@ header {
   font-weight: bold;
   display: flex;
   align-items: flex-start;
-  align-content: space-between;
+  justify-content: space-between;
+  padding: 1%;
 }
 
 footer ul {
