@@ -8,48 +8,45 @@
     <title>Sara Angelo's Professional Portfolio</title>
   </head>
 
-
-<body>
-    
+  <body>
     <header>
       <h1>Sara Angelo</h1>
-      <nav id="navbar">
-        <a href="index.html">Home</a>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#connect">Let's Connect</a>
-      </ul>
-      </nav>
     </header>
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#connect">Let's Connect</a></li>
+        </ul>
+      </nav>
+    </div>
 
-
+    <aside>
       <section>
         <img src="./assets/Portrait3.jpeg" alt="Portrait of Sara Angelo" />
       </section>
+    </aside>
 
-      <main>
-      <container class="about-container">
-        <section>
-          <h2>About</h2>
-          <p>
-            I am a Full-Stack Developer located in California. With an innate
-            drive to challenge myself, I set out to find new projects to create
-            from the ground up. 
-          </p>
-        </section>
-      </container>
+    <main>
+      <section id="about" class="about-container">
+        <h2>About</h2>
+        <p>
+          I am a Full-Stack Developer located in California. With an innate
+          drive to challenge myself, I set out to find new projects to create
+          from the ground up. Let's connect!
+        </p>
+      </section>
 
-      <container class="work-container">
-        <section>
-          <h2>Work</h2>
-          <p>Insert my work so far. Link to Github?</p>
-        </section>
-      </container>
+      <section id="work" class="work-container">
+        <h2>Work</h2>
+        <p>Insert my work so far. Link to Github?</p>
+      </section>
     </main>
 
-    <containter class="contact-container">
     <footer>
-      <section>
+      <section id="connect" class="contact-container">
         <ul>
           <li>724.549.7964</li>
           <li>saramangelo@gmail.com</li>
@@ -57,8 +54,5 @@
         </ul>
       </section>
     </footer>
-  </containter>
-
   </body>
-
 </html>
