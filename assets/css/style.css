@@ -10,14 +10,32 @@
   --heliotrope: #e866ec;
 }
 
-.about-container {
+body {
+  line-height: 1.5;
+  font-size:16px;
+}
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 1%;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
 }
 
 .work-container {
 
 }
 
+.contact-container {
+  
+}
 
 
 header {
@@ -25,6 +43,9 @@ header {
     margin:auto;
     line-height: 10px;
     font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
 }
 
 footer {
@@ -41,12 +62,15 @@ img {
 
 
 
+
 #navbar {
-  /* border: 10px solid var(--gin); */
+  margin: auto;
+  top: 0px;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
-  align-content: space-around;
-  list-style: none;
+  align-content: space-between;
+  flex-direction: row;
 }
 
 /* @media screen and (max-width: 768px) {
