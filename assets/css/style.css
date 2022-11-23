@@ -147,7 +147,7 @@ aside {
   font-weight: bold;
   flex: 1 0 25%;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   font-size: 8rem;
 }
 
@@ -158,7 +158,7 @@ aside {
   font-weight: bold;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
   font-size: 8rem;
 }
 
