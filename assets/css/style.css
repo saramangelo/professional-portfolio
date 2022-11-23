@@ -88,6 +88,12 @@ section p {
 #horiseon {
   margin: auto;
   padding: 10px;
+  width: auto;
+}
+
+#loading {
+  margin: auto;
+  padding: 10px;
 }
 
 h1 {
@@ -148,7 +154,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
+  /* position: absolute; */
   /* padding: 1%; */
 
   /* padding: 1rem 1.2rem;
@@ -161,7 +167,7 @@ h1 {
 
 #Angelo {
   color: var(--heliotrope);
-  margin: auto;
+  /* margin: auto; */
   line-height: 10px;
   font-weight: bold;
   display: flex;
