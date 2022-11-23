@@ -12,24 +12,15 @@
   --heliotrope: #e866ec;
 }
 
-#grad {
-  /* background-image: linear-gradient(
-    to right,
-    var(--outerspace),
-    var(--gin-header)
-  ); */
-}
+
 
 body {
   line-height: 1.6;
-  /* overflow: hidden; */
   margin-top: 60px;
   background-color: var(--gin);
 }
 
 .container {
-  /* width: 100%;
-  height: 100%; */
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
@@ -48,7 +39,6 @@ body {
 .navbar ul {
   display: flex;
   list-style: none;
-  /* width: 100%; */
   justify-content: center;
 }
 
@@ -73,8 +63,6 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* width: 100%;
-  height: 100vh; */
 }
 
 section h2 {
@@ -98,7 +86,7 @@ section p {
 
 h1 {
   color: var(--heliotrope);
-  margin: auto;
+  /* margin: auto; */
   display: flex;
   justify-content: center;
 }
@@ -146,42 +134,31 @@ h1 {
   padding: 1%;
 }
 
+aside {
+  display: flex;
+  margin-top: 50 px;
+  height: 300px;
+}
+
 #Sara {
   color: var(--heliotrope);
-  margin: auto;
   line-height: 10px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* position: absolute; */
-  /* padding: 1%; */
-
-  /* padding: 1rem 1.2rem;
-  padding-top: 1rem;
-  padding-right: 1.2rem;
-  padding-bottom: 1rem;
-  padding-left: 1.2rem; */
-  font-size: 4.5rem;
+  flex: 1 0 25%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 8rem;
 }
 
 #Angelo {
   color: var(--heliotrope);
-  /* margin: auto; */
+  flex: 1 0 25%;
   line-height: 10px;
   font-weight: bold;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position:
-  /* padding: 1%; */
-
-  /* padding: 1rem 1.2rem;
-  padding-top: 1rem;
-  padding-right: 1.2rem;
-  padding-bottom: 1rem;
-  padding-left: 1.2rem; */
-  font-size: 4.5rem;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 8rem;
 }
 
 footer ul {
@@ -192,22 +169,12 @@ img {
   border-radius: 25px;
   box-shadow: 6px 4px 8px;
   margin-left: 25px;
-  width: 25%;
+  width: 65%;
   height: auto;
 }
 
-#navbar {
-  /* margin: auto;
-  top: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-content: space-between;
-  flex-direction: row; */
-}
-
 @media screen and (max-width: 992px) {
-body {
+  body {
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -218,7 +185,7 @@ body {
     width: 75%;
   }
 
-  {
+   {
     flex: 0 0 33.333%;
     max-width: 33.333%;
   }
