@@ -15,6 +15,7 @@
 
 
 body {
+  display: block;
   line-height: 1.6;
   margin-top: 60px;
   background-color: var(--gin);
@@ -182,7 +183,8 @@ img {
 
 @media screen and (max-width: 768px) {
   body {
-    width: 75%;
+    flex: 0 0 50%;
+    max-width: 75%;
   }
 
    {
