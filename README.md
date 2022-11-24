@@ -2,7 +2,7 @@
 
 ## Description
 
-This professional portfolio of Sara Angelo is a webpage rendered by utilizing HyperText Markup Language and Cascading Style Sheets. 
+This professional portfolio of Sara Angelo (the developer) is a webpage rendered by utilizing HyperText Markup Language and Cascading Style Sheets. In this webpage, the user can view information about the developer, their work, and how to contact them. When one of the navigation links are clicked, the UI scrolls to the corresponding seciton. When the work section is clicked, the UI scrolls to a section with titled images of the developer's applications. When the user is presented with the developer's first application, that image is larger in size. When the user clicks on the image of the application, the user is taken to the respective application. Specific use of media queries and styling in CSS enables a responsive layout when the page is resized.
 
 ## Screenshot
 
@@ -11,7 +11,7 @@ This professional portfolio of Sara Angelo is a webpage rendered by utilizing Hy
 
 ## Link to webpage:
 
-
+https://saramangelo.github.io/professional-portfolio/
 
 ## License
 

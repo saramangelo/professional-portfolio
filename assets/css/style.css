@@ -89,7 +89,6 @@ section p {
 }
 
 h1 {
-  color: var(--heliotrope);
   display: flex;
   justify-content: center;
 }
