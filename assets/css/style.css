@@ -196,6 +196,8 @@ img {
 
   aside {
     flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
     text-align: center;
   }
