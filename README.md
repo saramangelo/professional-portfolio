@@ -2,7 +2,7 @@
 
 ## Description
 
-This professional portfolio is a webpage rendered by utilizing HyperText Markup Language and Cascading Style Sheets. 
+This professional portfolio of Sara Angelo is a webpage rendered by utilizing HyperText Markup Language and Cascading Style Sheets. 
 
 ## Screenshot
 
