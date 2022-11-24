@@ -6,7 +6,7 @@ This professional portfolio of Sara Angelo (the developer) is a webpage rendered
 
 ## Screenshot
 
-![professional-portolio-ss](./assets/professional-portfolio-ss.png)
+![portfolio-ss.png](./assets/portfolio-ss.png)
 
 
 ## Link to webpage:
