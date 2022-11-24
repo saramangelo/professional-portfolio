@@ -12,9 +12,11 @@
   --heliotrope: #e866ec;
 }
 
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
 }
 
 body {
@@ -68,7 +70,7 @@ section {
   text-align: center;
 }
 
-section h2 {
+ h2 {
   font-size: 4rem;
 }
 
@@ -121,7 +123,7 @@ h1 {
 }
 
 .contact-container {
-  text-decoration:var(--heliotrope);
+  text-decoration: var(--heliotrope);
   color: var(--outerspace);
   display: inline;
   border-style: solid;
@@ -183,21 +185,22 @@ img {
   justify-content: center;
 }
 
-
 @media screen and (max-width: 768px) {
-  header, main {
+  header,
+  main {
     flex-direction: column;
   }
 
-#Angelo {
-  width: 20px;  
-  display: flex;
-  flex-direction: row;
+  #Angelo {
+    width: 20px;
+    width: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
   }
 
-  #about, #work, #connect {
+  .about-container,
+  .work-container .contact-container {
     background-color: var(--heliotrope);
   }
-
-
 }
