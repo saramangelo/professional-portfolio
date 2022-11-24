@@ -189,7 +189,13 @@ img {
     flex-direction: column;
   }
 
-  section {
-    padding-right: 0;
+  aside {
+    order: 2;
   }
+
+  #about, #work, #connect {
+    background-color: var(--heliotrope);
+  }
+
+
 }
