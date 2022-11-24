@@ -12,6 +12,11 @@
   --heliotrope: #e866ec;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 body {
   display: block;
   line-height: 1.6;
@@ -118,6 +123,7 @@ h1 {
 }
 
 .contact-container {
+  text-decoration:var(--heliotrope)
   color: var(--outerspace);
   display: inline;
   border-style: solid;
