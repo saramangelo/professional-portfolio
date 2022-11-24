@@ -11,7 +11,7 @@ This professional portfolio is a webpage rendered by utilizing HyperText Markup 
 
 ## Link to webpage:
 
-https://saramangelo.github.io/HoriseonRefactor/
+
 
 ## License
 
