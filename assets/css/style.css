@@ -156,7 +156,7 @@ aside {
 
 #Angelo {
   color: var(--heliotrope);
-  flex: 1 0 25%;
+  flex: 1 2 25%;
   line-height: 10px;
   font-weight: bold;
   display: flex;
@@ -189,8 +189,10 @@ img {
     flex-direction: column;
   }
 
-  aside {
-    order: 2;
+#Angelo {
+  width: 20px;  
+  display: flex;
+  flex-direction: row;
   }
 
   #about, #work, #connect {
