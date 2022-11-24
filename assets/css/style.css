@@ -184,24 +184,18 @@ img {
   justify-content: center;
 }
 
-@media screen and (max-width: 992px) {
-  body {
-    flex-direction: column;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
 
 @media screen and (max-width: 768px) {
-  body {
-    flex: 0 0 50%;
-    max-width: 50%;
+  header, main {
+    flex-direction: column;
   }
-}
 
-@media screen and (max-width: 576px) {
-  body {
-    flex: 0 0 50%;
-    max-width: 50%;
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
   }
 }
