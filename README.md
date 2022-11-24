@@ -6,7 +6,7 @@ This professional portfolio of Sara Angelo is a webpage rendered by utilizing Hy
 
 ## Screenshot
 
-![professional-portolio-ss](./assets/screenshot-pp.png)
+![professional-portolio-ss](./assets/professional-portfolio-ss.png)
 
 
 ## Link to webpage:
