@@ -192,10 +192,4 @@ img {
   section {
     padding-right: 0;
   }
-
-  aside {
-    flex-direction: column;
-    width: 50%;
-    text-align: center;
-  }
 }
