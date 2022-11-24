@@ -12,13 +12,11 @@
   --heliotrope: #e866ec;
 }
 
-
-
 body {
   display: block;
   line-height: 1.6;
   margin-top: 60px;
-  background-color: var(--gin);
+  background-image: radial-gradient(var(--outerspace), var(--gin));
 }
 
 .container {
@@ -87,7 +85,6 @@ section p {
 
 h1 {
   color: var(--heliotrope);
-  /* margin: auto; */
   display: flex;
   justify-content: center;
 }
@@ -148,7 +145,8 @@ aside {
   flex: 1 0 25%;
   align-items: flex-start;
   justify-content: center;
-  font-size: 8rem;
+  font-size: 10rem;
+  margin-top: 50px;
 }
 
 #Angelo {
@@ -159,7 +157,8 @@ aside {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-size: 8rem;
+  font-size: 10rem;
+  margin-top: 50px;
 }
 
 footer ul {
@@ -174,10 +173,15 @@ img {
   height: auto;
 }
 
+.final-footer {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 992px) {
   body {
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 75%;
   }
 }
 
@@ -186,12 +190,4 @@ img {
     flex: 0 0 50%;
     max-width: 75%;
   }
-
-   {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
-  }
-}
-
-@media screen and (max-width: 576px) {
 }
