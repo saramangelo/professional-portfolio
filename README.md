@@ -6,7 +6,7 @@ This professional portfolio is a webpage rendered by utilizing HyperText Markup 
 
 ## Screenshot
 
-![professional-portolio-ss]()
+![professional-portolio-ss](./assets/screenshot-pp.png)
 
 
 ## Link to webpage:
