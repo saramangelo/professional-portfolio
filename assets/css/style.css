@@ -185,14 +185,22 @@ img {
 
 @media screen and (max-width: 992px) {
   body {
+    flex-direction: column;
     flex: 0 0 50%;
-    max-width: 75%;
+    max-width: 50%;
   }
 }
 
 @media screen and (max-width: 768px) {
   body {
     flex: 0 0 50%;
-    max-width: 75%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 }
