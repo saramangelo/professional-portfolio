@@ -114,50 +114,6 @@ h1 {
   padding: 1%;
 }
 
-/* .about-container {
-  color: var(--outerspace);
-  border-style: solid;
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 10px;
-  margin: 20px;
-  box-shadow: 6px 4px 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
-}
-
-.work-container {
-  color: var(--outerspace);
-  border-style: solid;
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 10px;
-  margin: 20px;
-  box-shadow: 6px 4px 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
-}
-
-.contact-container {
-  text-decoration: var(--heliotrope);
-  color: var(--outerspace);
-  display: inline;
-  border-style: solid;
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 10px;
-  margin: 20px;
-  box-shadow: 6px 4px 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
-} */
-
 aside {
   display: flex;
   flex: 1 0 100px;
