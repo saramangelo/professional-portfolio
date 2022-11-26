@@ -94,7 +94,27 @@ h1 {
   justify-content: center;
 }
 
-.about-container {
+
+
+.my-containers:hover {
+  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+}
+
+.my-containers {
+  color: var(--outerspace);
+  border-style: solid;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 6px 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+/* .about-container {
   color: var(--outerspace);
   border-style: solid;
   border: 2px solid;
@@ -136,7 +156,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-}
+} */
 
 aside {
   display: flex;
@@ -215,9 +235,7 @@ img {
     flex-direction: row;
   }
 
-  .about-container,
-  .work-container,
-  .contact-container {
+  .my-containers {
     background-color: var(--heliotrope);
   }
 }
