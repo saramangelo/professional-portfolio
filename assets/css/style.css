@@ -135,7 +135,6 @@ aside {
   flex: 1 2 25%;
   line-height: 10px;
   font-weight: bold;
-  display: flex;
   align-items: flex-end;
   justify-content: center;
   font-size: 10rem;
@@ -197,5 +196,3 @@ img {
     background-color: var(--heliotrope);
   }
 }
-
-
