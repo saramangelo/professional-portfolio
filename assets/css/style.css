@@ -192,7 +192,7 @@ img {
   margin: auto;
   margin-bottom: 20px;
   display: flex;
- justify-content: center;
+  justify-content: center;
   width: 100px;
 }
 
