@@ -180,6 +180,22 @@ img {
   height: auto;
 }
 
+#git {
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+#linked {
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+ justify-content: center;
+  width: 100px;
+}
+
 .final-footer {
   display: flex;
   justify-content: center;
