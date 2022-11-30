@@ -112,31 +112,32 @@ h1 {
   padding: 1%;
 }
 
-aside {
+/* aside {
   display: flex;
+  flex-direction: column;
   flex: 1 0 100px;
   margin-top: 50 px;
   height: 300px;
-}
+} */
 
 #Sara {
   color: var(--heliotrope);
   line-height: 10px;
   font-weight: bold;
-  flex: 1 0 25%;
-  align-items: flex-start;
-  justify-content: center;
+  /* flex: 1 0 25%; */
+  /* align-items: flex-start;
+  justify-content: center; */
   font-size: 10rem;
   margin-top: 55px;
 }
 
 #Angelo {
   color: var(--heliotrope);
-  flex: 1 2 25%;
+  /* flex: 1 2 25%; */
   line-height: 10px;
   font-weight: bold;
-  align-items: flex-end;
-  justify-content: center;
+  /* align-items: flex-end;
+  justify-content: center; */
   font-size: 10rem;
   margin-bottom: 70px;
 }
@@ -180,16 +181,21 @@ img {
 
 @media screen and (max-width: 768px) {
   header,
-  main {
+  main,
+  aside {
+    display: flex;
     flex-direction: column;
   }
 
+  #Sara,
   #Angelo {
-    width: 20px;
-    width: 20px;
-    width: 20px;
-    display: flex;
-    flex-direction: row;
+    font-size: 4rem;
+    /* display: flex;
+    flex-direction: row; */
+  }
+
+  #memoji {
+    flex: auto;
   }
 
   .my-containers {
