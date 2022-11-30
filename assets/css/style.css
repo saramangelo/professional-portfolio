@@ -185,12 +185,13 @@ img {
     flex-direction: column;
   }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-}
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
 
-  #Sara, #Angelo {
+  #Sara,
+  #Angelo {
     display: flex;
     flex-direction: row;
     font-size: 4rem;
@@ -202,9 +203,10 @@ img {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 475px) {
   .navbar {
     display: flex;
     flex-direction: row;
+    font-size: 1rem;
   }
 }
