@@ -201,3 +201,10 @@ img {
     background-color: var(--heliotrope);
   }
 }
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+}
