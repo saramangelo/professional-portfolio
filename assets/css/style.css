@@ -185,6 +185,11 @@ img {
     flex-direction: column;
   }
 
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
   #Sara, #Angelo {
     display: flex;
     flex-direction: row;
