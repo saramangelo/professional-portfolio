@@ -35,8 +35,8 @@ body {
 /* NAV */
 
 .navbar {
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0; */
   z-index: 1;
   display: flex;
   width: 100%;
@@ -229,13 +229,13 @@ img {
     margin-top: -5px;
   }
 
-  #Sara, #Angelo {
+  /* #Sara, #Angelo {
     display: flex;
     flex-direction: row;
     font-size: 4rem;
     padding: 0px;
     scroll-margin-bottom: 100px;
-  }
+  } */
 
 
 
