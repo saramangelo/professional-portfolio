@@ -19,6 +19,8 @@ a:active {
   text-decoration: none;
 }
 
+/* BODY */
+
 body {
   display: block;
   line-height: 1.6;
@@ -30,8 +32,10 @@ body {
   scroll-behavior: smooth;
 }
 
+/* NAV */
+
 .navbar {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   z-index: 1;
   display: flex;
@@ -43,6 +47,7 @@ body {
 
 .navbar ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   justify-content: center;
 }
@@ -62,6 +67,7 @@ body {
   color: var(--bright-turqouise);
 }
 
+/* my name and memoji in aside */
 section {
   display: flex;
   flex-direction: column;
@@ -69,47 +75,9 @@ section {
   justify-content: center;
   text-align: center;
 }
-
-h2 {
-  font-size: 4rem;
-}
-
-section p {
-  font-size: 1.5rem;
-}
-
-#horiseon {
-  margin: auto;
-  padding: 10px;
-  width: auto;
-}
-
-#loading {
-  margin: auto;
-  padding: 10px;
-}
-
 h1 {
   display: flex;
   justify-content: center;
-}
-
-.my-containers:hover {
-  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-}
-
-.my-containers {
-  color: var(--outerspace);
-  border-style: solid;
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 10px;
-  margin: 20px;
-  box-shadow: 6px 4px 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
 }
 
 aside {
@@ -140,6 +108,47 @@ aside {
   font-size: 10rem;
   margin-bottom: 70px;
 }
+
+/* sections with about, work, contact */
+h2 {
+  font-size: 4rem;
+}
+
+section p {
+  font-size: 1.5rem;
+}
+
+#horiseon {
+  margin: auto;
+  padding: 10px;
+  width: auto;
+}
+
+#loading {
+  margin: auto;
+  padding: 10px;
+}
+
+
+.my-containers:hover {
+  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+}
+
+.my-containers {
+  color: var(--outerspace);
+  border-style: solid;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 6px 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+
 
 #phone:active {
   user-select: all;
