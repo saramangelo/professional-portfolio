@@ -35,7 +35,7 @@ body {
 /* NAV */
 
 .navbar {
-  /* position: fixed; */
+  position: relative;
   /* top: 0; */
   z-index: 1;
   display: flex;
@@ -43,6 +43,13 @@ body {
   /* height: 60px; */
   background: var(--gin-header);
   backdrop-filter: blur(10px);
+}
+
+/* scrolling state */
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar ul {
@@ -96,6 +103,7 @@ aside {
   justify-content: center;
   font-size: 10rem;
   margin-top: 55px;
+  padding-top: 30px;
 }
 
 #Angelo {
@@ -110,6 +118,7 @@ aside {
 }
 
 /* sections with about, work */
+
 h2 {
   font-size: 4rem;
 }
@@ -128,7 +137,6 @@ section p {
   margin: auto;
   padding: 10px;
 }
-
 
 .my-containers:hover {
   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
@@ -194,14 +202,13 @@ img {
     flex-direction: column;
   }
 
-  #Sara, #Angelo {
+  #Sara,
+  #Angelo {
     display: flex;
     flex-direction: row;
     font-size: 4rem;
     padding: 0px;
   }
-
-
 
   .my-containers {
     background-color: var(--heliotrope);
@@ -214,13 +221,13 @@ img {
     margin-top: -5px;
   }
 
-  #Sara, #Angelo {
+  #Sara,
+  #Angelo {
     display: flex;
     flex-direction: row;
     font-size: 4rem;
     padding: 0px;
   }
-
 }
 
 @media screen and (max-width: 400px) {
@@ -237,6 +244,5 @@ img {
     scroll-margin-bottom: 100px;
   } */
 
-
-
+  /* NEED TO ADD SOMETHING TO KEEP NAVBAR WHEN SCROLLED DOWN PAGE!! */
 }
