@@ -90,8 +90,12 @@ h1 {
 aside {
   display: flex;
   flex: 1 0 100px;
-  margin-top: 50 px;
-  height: 300px;
+  /* margin-top: 50 px; */
+  height: 350px;
+}
+
+#memoji {
+  margin:auto;
 }
 
 #Sara {
