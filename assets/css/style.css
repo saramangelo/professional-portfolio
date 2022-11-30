@@ -35,7 +35,6 @@ body {
   top: 0;
   z-index: 1;
   display: flex;
-
   width: 100%;
   height: 60px;
   background: var(--gin-header);
@@ -179,21 +178,14 @@ img {
   justify-content: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   header,
   main {
     display: flex;
     flex-direction: column;
   }
 
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-    font-size: 1rem;
-  }
-
-  #Sara,
-  #Angelo {
+  #Sara, #Angelo {
     display: flex;
     flex-direction: row;
     font-size: 4rem;
@@ -204,13 +196,3 @@ img {
     background-color: var(--heliotrope);
   }
 }
-
-/* @media screen and (max-width: 475px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-    margin: 0.8rem;
-    padding: 0px;
-  }
-} */
