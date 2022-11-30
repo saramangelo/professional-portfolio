@@ -10,7 +10,7 @@
 
   <body class="container">
     <header>
-      <nav class="navbar">
+      <nav class="navbar"> <!-- navbar including "links" that when clicked, UI scrolls to corresponding section -->
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -21,7 +21,7 @@
     </header>
 
     <aside>
-      <h1 id="Sara">Sara</h1>
+      <h1 id="Sara">Sara</h1> <!-- my name needs to be separate to style on top left and bottom right with CSS -->
       <section>
         <img id="memoji" src="./assets/sara-memoji.png" alt="Memoji of Sara Angelo" />
       </section>
@@ -29,7 +29,7 @@
     </aside>
 
     <main>
-      <section id="about" class="my-containers" class="about-container">
+      <section id="about" class="my-containers" class="about-container"> <!-- about section about myself -->
         <h2>About</h2>
         <p>
           I am a Full-Stack Developer located in California. With an innate
@@ -38,10 +38,10 @@
         </p>
       </section>
 
-      <section id="work" class="my-containers" class="work-container">
+      <section id="work" class="my-containers" class="work-container"> <!-- work section about my work so far -->
         <h2>Work</h2>
         <div>
-          <section id="horiseon">
+          <section id="horiseon"> <!-- make this clickable, open in new tab with _blank target -->
             <p><strong>Horiseon Refactor</strong></p>
             <a
               target="_blank"
@@ -64,14 +64,14 @@
     </main>
 
     <footer>
-      <section id="connect" class="my-containers" class="contact-container">
+      <section id="connect" class="my-containers" class="contact-container"> <!-- section with my contact information -->
         <h2>Let's Connect</h2>
         <ul>
-          <li>
-            <a
+          <li> <!-- make git and linked in clickable, open in new tab with _blank target -->
+            <a 
               target="_blank"
               href="https://github.com/saramangelo?tab=repositories"
-              ><img id="git" src="./assets/github-image.png" alt="Github icon"
+              ><img id="git" src="./assets/github-image.png" alt="Github icon" 
             /></a>
           </li>
           <li>
@@ -86,7 +86,7 @@
           </li>
           <li id="phone">&#128241; 724 | 549 | 7964</li>
           <li>
-            <a href="mailto:saramangelo@gmail.com"> ✉️ </a>
+            <a href="mailto:saramangelo@gmail.com"> ✉️ </a> <!-- mailto: makes this clickable and open new email to be sent to my email address -->
           </li>
         </ul>
       </section>
