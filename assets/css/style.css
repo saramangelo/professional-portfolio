@@ -230,19 +230,19 @@ img {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 476px) {
   .navbar ul {
     padding: 8px;
     margin-top: -5px;
   }
 
-  /* #Sara, #Angelo {
+  #Sara, #Angelo {
     display: flex;
     flex-direction: row;
     font-size: 4rem;
     padding: 0px;
+    padding-top: 100px;
     scroll-margin-bottom: 100px;
-  } */
+  }
 
-  /* NEED TO ADD SOMETHING TO KEEP NAVBAR WHEN SCROLLED DOWN PAGE!! */
 }
