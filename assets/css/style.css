@@ -234,7 +234,7 @@ img {
   }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 500px) {
   .navbar ul {
     padding: 8px;
     margin-top: -5px;
