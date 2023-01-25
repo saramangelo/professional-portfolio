@@ -160,6 +160,10 @@ section p {
   padding: 1%;
 }
 
+.animated-gif {
+  width: auto;
+  height: auto;
+}
 /* section with contact information */
 
 footer ul {
